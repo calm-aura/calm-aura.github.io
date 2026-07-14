@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calming Aura Studios</title>
+  <style>
+    :root {
+      --bg: #0f1a14;
+      --fg: #e8f0ea;
+      --muted: #9bb0a2;
+      --accent: #3d9b6a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: radial-gradient(ellipse at top, #1a2e24 0%, var(--bg) 55%);
+      color: var(--fg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    main { max-width: 36rem; }
+    h1 {
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      font-weight: 650;
+      letter-spacing: -0.02em;
+      margin: 0 0 0.5rem;
+    }
+    p {
+      margin: 0 0 1.25rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+    a { color: var(--accent); }
+    ul { margin: 0; padding-left: 1.15rem; color: var(--muted); line-height: 1.7; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Calming Aura Studios</h1>
+    <p>
+      Developer site for Asset Recovery apps by Calming Aura Studios LLC.
+      Support: <a href="mailto:support@calmingaura.net">support@calmingaura.net</a>
+    </p>
+    <ul>
+      <li><a href="/tos_and_privacy/asset-recovery/privacy-policy.html">Privacy Policy</a></li>
+      <li><a href="/tos_and_privacy/asset-recovery/terms-of-service.html">Terms of Service</a></li>
+      <li><a href="/app-ads.txt">app-ads.txt</a></li>
+    </ul>
+  </main>
+</body>
+</html>
